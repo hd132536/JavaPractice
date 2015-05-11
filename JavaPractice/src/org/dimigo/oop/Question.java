@@ -28,9 +28,10 @@ public class Question {
 		String ans1 = "스티브";
 		String ans2 = "로다주";
 		String ans3 = "베네딕트 컴버배치";
+		String answer;
 		
 		System.out.println("캡틴아메리카의 실명은?");
-		String answer = scanner.nextLine();
+		answer = scanner.nextLine();
 		
 		if(ans1.equals(answer))
 			System.out.println("정답입니다.");
@@ -38,17 +39,17 @@ public class Question {
 		System.out.println();
 		
 		System.out.println("아이언맨의 실명은?");
-		String answer2 = scanner.nextLine();
+		answer = scanner.nextLine();
 		
-		if(ans2.equals(answer2))
+		if(ans2.equals(answer))
 			System.out.println("정답입니다.");
 		else System.out.println("틀렸습니다.");
 		
 		System.out.println();
 		System.out.println("영국 드라마 셜록에 나오는 셜록의 실명은?");
-		String answer3 = scanner.nextLine();
+		answer = scanner.nextLine();
 		
-		if(ans3.equals(answer3))
+		if(ans3.equals(answer))
 			System.out.println("정답입니다.");
 		else System.out.println("틀렸습니다.");
 		
