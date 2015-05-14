@@ -33,7 +33,7 @@ public class Score {
 		System.out.println("영어 점수 입력 => ");
 		int eng = scanner.nextInt();
 		
-		StringBuilder print = new StringBuilder().append("<< 점수 출력 >>\n")
+		String print = new StringBuilder().append("<< 점수 출력 >>\n")
 												.append("국어 점수 : ")
 												.append(kor)
 												.append("\n")
@@ -45,7 +45,8 @@ public class Score {
 												.append("\n")
 												.append("평균 : ")
 												.append( String.format("%.1f", (math + kor + eng) / 3.0) )
-												.append("점\n");
+												.append("점\n")
+												.toString();
 		System.out.println(print);
 		scanner.close();
 			
