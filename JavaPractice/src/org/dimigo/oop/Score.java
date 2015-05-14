@@ -34,22 +34,21 @@ public class Score {
 		int eng = scanner.nextInt();
 		
 		String print = new StringBuilder().append("<< 점수 출력 >>\n")
-												.append("국어 점수 : ")
-												.append(kor)
-												.append("\n")
-												.append("수학 점수 : ")
-												.append(math)
-												.append("\n")
-												.append("영어 점수 : ")
-												.append(eng)
-												.append("\n")
-												.append("평균 : ")
-												.append( String.format("%.1f", (math + kor + eng) / 3.0) )
-												.append("점\n")
-												.toString();
+											.append("국어 점수 : ")
+											.append(kor)
+											.append("\n")
+											.append("수학 점수 : ")
+											.append(math)
+											.append("\n")
+											.append("영어 점수 : ")
+											.append(eng)
+											.append("\n")
+											.append("평균 : ")
+											.append( String.format("%.1f", (math + kor + eng) / 3.0) )
+											.append("점\n")
+											.toString();
 		System.out.println(print);
 		scanner.close();
-			
 	}
 
 }
