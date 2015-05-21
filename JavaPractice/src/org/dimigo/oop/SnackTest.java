@@ -34,7 +34,7 @@ public class SnackTest {
 			sn.PrintSnack();
 			sum = sum +  (int)sn.calcPrice();
 		}
-		System.out.println("총합 : " + String.format("%,d", sum) + "원");
+		System.out.println("총 구매 금액 : " + String.format("%,d", sum) + "원");
 	}
 
 }
