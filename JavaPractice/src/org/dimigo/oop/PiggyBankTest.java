@@ -30,7 +30,7 @@ public class PiggyBankTest {
 			new FamilyMember("남동생")
 		};
 	
-		int[] amounts = {10000, 5000, 3000, 2000};
+		int[] amounts = {10000, 5000, 2000, 1000};
 		
 		FamilyMember.printMemberCnt();
 		
@@ -39,5 +39,10 @@ public class PiggyBankTest {
 		}
 		
 		PiggyBank.printBalance();
+		
+		PiggyBank.putMoney(members[2], amounts[2]);
+		PiggyBank.printBalance();
+
+
 	}
 }
