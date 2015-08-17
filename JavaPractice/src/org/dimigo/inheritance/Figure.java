@@ -23,7 +23,8 @@ public class Figure {
 		
 	}
 	public Figure(int centerX, int centerY) {
-		
+		this.centerX = centerX;
+		this.centerY = centerY;
 	}
 	
 	protected double calcArea() {
