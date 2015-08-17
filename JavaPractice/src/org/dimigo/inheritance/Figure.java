@@ -22,6 +22,7 @@ public class Figure {
 	public Figure() {
 		
 	}
+	
 	public Figure(int centerX, int centerY) {
 		this.centerX = centerX;
 		this.centerY = centerY;

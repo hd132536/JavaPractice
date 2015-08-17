@@ -28,7 +28,6 @@ public class Rectangle extends Figure {
 		super(centerX, centerY);
 		this.width = width;
 		this.height = height;
-		
 	}
 	
 	protected double calcArea() {
