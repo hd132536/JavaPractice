@@ -45,7 +45,7 @@ public class SmartPhone {
 		if(this == null) return;
 		if(this instanceof IPhone) {
 			IPhone i = new IPhone();
-			i.usuAirDrop();
+			i.useAirDrop();
 		}
 		else if(this instanceof Galaxy) {
 			Galaxy g = new Galaxy();
