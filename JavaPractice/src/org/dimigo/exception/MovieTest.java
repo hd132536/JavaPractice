@@ -26,6 +26,7 @@ public class MovieTest extends Exception{
 			Movie[] movies = {
 					new Movie("앤트맨", 12), new Movie("사도", 12), new Movie("베테랑", 15) 
 			};
+			
 			int age = 13;
 			for(Movie movie : movies) {
 				buyTicket(movie, age);
@@ -42,5 +43,4 @@ public class MovieTest extends Exception{
 			System.out.println(movie.getTitle() + " 즐감하세요~~" );
 		}
 	}
-
 }
