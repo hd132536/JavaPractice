@@ -58,6 +58,6 @@ public class MelonChart {
 			System.out.println(m);
 		}
 		System.out.println();
+		
 	}
-
 }
