@@ -67,9 +67,8 @@ public class MelonGenreChart {
 				System.out.print(i + ". ");
 				System.out.println(mm);
 			}
-			System.out.println();
 			
-
+			System.out.println();
 		}
 	}
 }
