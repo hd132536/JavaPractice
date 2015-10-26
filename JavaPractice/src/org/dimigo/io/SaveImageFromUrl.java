@@ -42,7 +42,7 @@ public class SaveImageFromUrl {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-		} catch (MalformedURLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
