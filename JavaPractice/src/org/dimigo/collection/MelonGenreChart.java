@@ -58,17 +58,30 @@ public class MelonGenreChart {
 	}
 
 	public static void printList(Map<String, List<Music>> m) {
+//		for(Entry<String, List<Music>> entry : m.entrySet()) {
+//			System.out.println( "[" + entry.getKey() + "]");
+//			
+//			int i = 0;
+//			for(Music mm : entry.getValue()) {
+//				i++;
+//				System.out.print(i + ". ");
+//				System.out.println(mm);
+//			}
+//			
+//			System.out.println();
+//		}
+		
+//		for(String key : m.keySet()) {
+//			for(int i=0; i<m.get(key).size(); i++) {
+//				System.out.println((i + 1) + ". " + m.get(key).get(i));
+//			}
+//		}
+//		
 		for(Entry<String, List<Music>> entry : m.entrySet()) {
-			System.out.println( "[" + entry.getKey() + "]");
-			
-			int i = 0;
-			for(Music mm : entry.getValue()) {
-				i++;
-				System.out.print(i + ". ");
-				System.out.println(mm);
+			for(int i = 0; i < entry.getValue().size(); i++) {
+				System.out.println(entry.getValue().get(i))
+				;
 			}
-			
-			System.out.println();
 		}
 	}
 }
