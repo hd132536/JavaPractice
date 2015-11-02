@@ -47,8 +47,8 @@ public class NaverSearch {
 	         * 표준입력으로 검색할 키워드를 입력받기
 	         * > 키워드를 입력하세요 => 스타워즈
 	         ********************************************************/
-	    	System.out.println("검색할 키워드를 입력해주세요.");
-	    	System.out.print("> ");
+	    	System.out.print("검색할 키워드를 입력해주세요.");
+	    	System.out.print("=> ");
 	    	
 	    	Scanner scanner = new Scanner(System.in);
 	    	keyword = scanner.nextLine();
