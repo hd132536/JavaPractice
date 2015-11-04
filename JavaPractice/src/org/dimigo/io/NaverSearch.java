@@ -51,7 +51,8 @@ public class NaverSearch {
 	    	
 	    	Scanner scanner = new Scanner(System.in);
 	    	keyword = scanner.nextLine();
-
+	    	scanner.close();
+	    	
 	    	StringBuffer sb = new StringBuffer(NAVER_OPEN_URL);
 	    	sb.append("?key=").append(SEARCH_KEY).append("&query=").append(keyword)
 	    	  .append("&display=10&start=1&target=movie");
